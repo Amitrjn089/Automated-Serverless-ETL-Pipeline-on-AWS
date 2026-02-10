@@ -1,0 +1,7 @@
+Designed and implemented a serverless ETL pipeline using AWS services to automatically process data uploaded to Amazon S3.
+Configured AWS Lambda to trigger the workflow on CSV file upload events.
+Developed an AWS Glue ETL job to transform and process CSV data (CSV → structured/processed output).
+Integrated Amazon EventBridge to track pipeline execution events and automate workflow orchestration.
+Implemented Amazon SNS to send real-time email notifications on successful job completion or failure.
+Enabled Amazon CloudWatch for monitoring, logging, and troubleshooting of Lambda and Glue jobs.
+Built a fully event-driven, automated data pipeline with minimal manual intervention.
